@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "duongin.tech",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "AI/NLP Engineer",
     bio: "He is an AI fanatic, but he believes that people are still the core value and cannot be replaced",
@@ -11,10 +11,6 @@ const CONFIG = {
     instagram: "",
   },
   projects: [
-    {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
   ],
   // blog setting (required)
   blog: {
@@ -51,7 +47,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: "duongttr/morethan-log",
       "issue-term": "og:title",
@@ -59,7 +55,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: true,
+    enable: false,
     config: {
       host: "https://cusdis.com",
       appid: "ffee3e95-6139-407f-8102-2f321a990c9", // Embed Code -> data-app-id value
