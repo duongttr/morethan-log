@@ -11,11 +11,15 @@ const CONFIG = {
     instagram: "",
   },
   projects: [
+    {
+      name: `morethan-log`,
+      href: "https://github.com/morethanmin/morethan-log",
+    },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "duongin.tech",
+    description: "He is an AI fanatic, but he believes that people are still the core value and cannot be replaced!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
